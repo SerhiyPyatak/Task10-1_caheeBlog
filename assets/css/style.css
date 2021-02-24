@@ -245,5 +245,73 @@ nav {
     letter-spacing:         2px;
     position:               relative;
     left:                   -80px;
-    top:                    40px;
+    top:                    30px;
+}
+
+.gallery-block {
+    width:                  100vw;
+    background-color:       rgb(255, 233, 47);
+    display:                flex;
+    justify-content:        center;
+    align-items:            flex-start;
+    padding: 100px 0;
+}
+
+.gallery-block__gallery {
+    max-width:              1200px;
+    width:                  80%;
+    height:                 auto;
+    display:                flex;
+    flex-direction:         column;
+}
+
+.gallery-block__grid {
+    max-width:              1200px;
+    height:                 auto;
+    width:                  100%;
+    margin:                 0;
+    padding:                0;
+}
+
+.grid__item {
+    display:                inline-block;
+    box-sizing:             border-box;
+    height:                 auto;
+    vertical-align:         middle;
+}
+
+.grid__item img {
+    width:                  100%;
+    height:                 auto;
+    display:                inline-block;
+    box-sizing:             border-box;
+}
+
+.grid__item_top-left {
+    width:                  64%;
+}
+
+.grid__item_top-right {
+    width:                  35%;
+}
+
+.grid__item_bottom-left {
+    width:                  48%;
+}
+
+.grid__item_bottom-right {
+    width:                  51%;
+}
+
+.gallery__linkbutton {
+    margin:                 30px auto 0 auto;
+}
+
+.subscribe-block {
+    width:                  100vw;
+    height:                 500px;
+    background-color:       #fff;
+    background-image: url('../img/subscribe-background.png');
+    background-position: top 0 left 100%;
+    background-repeat: no-repeat;
 }
