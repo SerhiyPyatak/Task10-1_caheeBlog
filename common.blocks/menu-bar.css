@@ -28,6 +28,27 @@
     border-top:             3px solid rgba(255, 255, 255, 0);
 }
 
+.services-block__menu-bar {
+    max-width:              750px;
+    width:                  50%;
+    padding:0;
+}
+
+.menu-bar__menu_side-menu {
+    flex-direction:         column;
+    height:                 100%;
+    padding:                 0;
+}
+
+.services-block__services-hero {
+    max-width:              750px;
+    width:                  50%;
+    height:                 100%;
+    background-image:       url('../assets/img/services-hero.png');
+    background-size:        cover;
+    background-repeat:      no-repeat;
+}
+
 /*  Apply modificator - ????  */
 .menu-bar__menulink:hover {
     border-top:             3px solid rgba(255, 96, 51, 1);

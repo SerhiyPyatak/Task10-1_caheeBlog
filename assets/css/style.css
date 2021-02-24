@@ -214,3 +214,11 @@ nav {
     flex-direction:         column;
     gap: 20px;
 }
+
+.services-block {
+    height:                 100vh;
+    width:                  100vw;
+    background-color:       rgb(112, 191, 255);
+    display:                flex;
+}
+
