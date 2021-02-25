@@ -62,3 +62,21 @@
     text-decoration:        none;
 }
 
+.gallery__info-block {
+    margin-bottom: 50px;
+}
+
+.info-block__title_gallery {
+    text-align:             center;
+    font-size: 67px;
+    font-weight: 700;
+}
+
+.info-block__descript_gallery {
+    width: 100%;
+    max-width: 570px;
+    margin:auto;
+    text-align:center;
+    color:rgb(67, 64, 39);
+}
+
