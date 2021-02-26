@@ -40,3 +40,11 @@
 .linkbutton:hover {
     transform:              scale(1.09, 1.09);
 }
+
+.subscribe__linkbutton {
+    width:                  22%;
+    margin:                 0;
+    background-color:       rgb(150,185,44);
+    border: none;
+    display:inline-block;
+}

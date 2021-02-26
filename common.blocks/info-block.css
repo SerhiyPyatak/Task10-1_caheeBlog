@@ -18,7 +18,7 @@
 .info-block__title_size65pxBold {
     font-size:              65px;
     margin:                 45px 0;
-    text-align: center;
+    text-align:             center;
 }
 
 .info-block__title_white {
@@ -63,20 +63,36 @@
 }
 
 .gallery__info-block {
-    margin-bottom: 50px;
+    margin-bottom:          50px;
 }
 
 .info-block__title_gallery {
     text-align:             center;
-    font-size: 67px;
-    font-weight: 700;
+    font-size:              67px;
+    font-weight:            700;
 }
 
 .info-block__descript_gallery {
-    width: 100%;
-    max-width: 570px;
-    margin:auto;
-    text-align:center;
-    color:rgb(67, 64, 39);
+    width:                  100%;
+    max-width:              570px;
+    margin:                 auto;
+    text-align:             center;
+    color:                  rgb(67, 64, 39);
+}
+
+.subscribe-block__info-block {
+    width:                  40%;
+    padding-right:          0;
+}
+
+.info-block__title_subscribe {
+    text-align:             left;
+    font-size:              30px;
+    width:                  100%;
+    font-weight:            800;
+}
+
+.info-block__descript_subscribe {
+    width:                  100%;
 }
 

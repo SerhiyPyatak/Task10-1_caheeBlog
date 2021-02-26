@@ -48,3 +48,31 @@
     border-left:            4px solid rgb(53, 91, 130);
     font-weight:            bold;
 }
+
+.subscribe__c-form {
+    padding-left:           150px;
+    width:                  51%;
+    height:                 65px;
+    flex-direction:         row;
+    margin-top:             30px;
+}
+
+.c-form__textfield_subscribe {
+    width:                  74%;
+    padding:                0;
+}
+
+.c-form__textfield_subscribe {
+    background-color:       #fff;
+    border:                 1px solid rgb(38, 38, 38);
+    padding-left:           25px;
+}
+
+.c-form__textfield_subscribe::placeholder {
+    color:                  rgb(189, 189, 189);
+}
+
+.c-form__textfield_subscribe:focus {
+    background-color:       #fff;
+    color:                  rgb(38, 38, 38);
+}
