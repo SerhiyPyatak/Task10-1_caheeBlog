@@ -1,0 +1,18 @@
+@import "../../node_modules/normalize-scss/sass/normalize/import-now";
+@import "common.blocks/hero-block.scss";
+@import "common.blocks/about-block.scss";
+@import "common.blocks/services-block.scss";
+@import "common.blocks/gallery-block.scss";
+@import "common.blocks/subscribe-block.scss";
+@import "common.blocks/blog-block.scss";
+@import "common.blocks/c-form.scss";
+@import "common.blocks/contact-section.scss";
+@import "common.blocks/webpage-footer.scss";
+
+* {
+    transition:             all .2s ease-in;
+}
+
+body {
+    overflow-x:             hidden;
+}

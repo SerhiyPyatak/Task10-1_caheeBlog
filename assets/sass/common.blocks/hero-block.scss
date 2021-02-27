@@ -1,0 +1,40 @@
+@import "menu-bar.scss";
+@import "info-block.scss";
+@import "linkbutton";
+
+.hero-block {
+    display:                        flex;
+    flex-direction:                 column;
+    justify-content:                space-between;
+    height:                         100vh;
+    background-image:               url(../img/hero-background.png);
+    background-size:                cover;
+    background-repeat:              no-repeat;
+    background-position:            right;
+    padding-bottom:                 40px;
+
+    &__footer {
+        display:                    flex;
+        justify-content:            center;
+    }
+}
+
+@media (max-width: 992px) { 
+    .hero-block {
+        height: 70vh;
+        background-size: 1000px auto;
+        background-position: 0 0;
+    }
+ }
+@media (max-width: 768px) {
+    .hero-block {
+        height: 64vh;
+        background-size: 900px auto;
+    }
+ }
+@media (max-width: 576px) {
+    .hero-block {
+        background-image: none;
+        background-color: #E7E3E5;
+    }
+}

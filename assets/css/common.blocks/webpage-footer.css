@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+.webpage-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #7e7e7e;
+  height: 90px;
+  background-color: #262626;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+
+.webpage-footer__slogan span {
+  color: #ff2b58;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=webpage-footer.css.map */

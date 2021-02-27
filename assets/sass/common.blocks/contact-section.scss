@@ -1,0 +1,28 @@
+@import "info-block";
+@import "c-form";
+
+.contact-section {
+    height:                 100vh;
+    width:                  100vw;
+    background-image:       url("../img/contact-form-background.png");
+    background-size:        cover;
+    background-repeat:      no-repeat;
+    box-sizing:             border-box;
+}
+
+.contact-section__header {
+    display:                flex;
+    justify-content:        center;
+}
+
+.contact-section__content {
+    display:                flex;
+    justify-content:        center;
+    padding-top:            50px;
+}
+
+.content__visit-card {
+    display:                flex;
+    flex-direction:         column;
+    gap: 20px;
+}

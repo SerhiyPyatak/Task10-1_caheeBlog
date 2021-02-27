@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;800;900&display=swap");
+.linkbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+  background-color: #ff6033;
+  margin: 40px 0;
+  border: 1px solid #ff6033;
+  box-shadow: 0px 2px 4px #9a9a9c;
+  text-decoration: none;
+  padding: 10px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+}
+.linkbutton_tap {
+  background-color: rgba(255, 255, 255, 0);
+  align-items: flex-start;
+  width: 24px;
+  height: 40px;
+  border: 2px solid #2c2d2d;
+  box-shadow: none;
+  color: #2c2d2d;
+  font-size: 12px;
+  padding: 2px;
+  border-radius: 11px;
+  font-weight: 600;
+}
+.linkbutton_gallery {
+  background-color: #5585a2;
+  border: none;
+  margin: 30px auto 0 auto;
+}
+.linkbutton:hover {
+  transform: scale(1.09, 1.09);
+}
+.linkbutton_subscribe {
+  width: 22%;
+  margin: 0;
+  background-color: #96b92c;
+  border: none;
+  display: inline-block;
+}
+
+.info-block {
+  padding: 0 150px;
+  font-family: "Raleway", sans-serif;
+}
+.info-block__title {
+  text-transform: capitalize;
+  font-size: 50px;
+  font-weight: 900;
+  margin: 30px 0;
+}
+.info-block__title_size65pxBold {
+  font-size: 65px;
+  margin: 45px 0;
+  text-align: center;
+}
+.info-block__title_white {
+  color: #fff;
+  font-size: 65px;
+  text-transform: capitalize;
+}
+.info-block__title_visit-card {
+  margin: 0 0 5px 0;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.info-block__title_gallery {
+  text-align: center;
+  font-size: 67px;
+  font-weight: 700;
+}
+.info-block__title_subscribe {
+  text-align: left;
+  font-size: 30px;
+  width: 100%;
+  font-weight: 800;
+}
+.info-block__descript {
+  font-size: 15px;
+  color: #a5a4a6;
+  margin: 0;
+  width: 370px;
+  line-height: 1.7em;
+  font-weight: 400;
+}
+.info-block__descript_white {
+  color: #fff;
+  width: 500px;
+  margin: 25px 0;
+}
+.info-block__descript_subtitle {
+  color: #262626;
+  width: 340px;
+  text-align: center;
+  line-height: 25px;
+}
+.info-block__descript_visit-card, .info-block__descript_visit-card > a {
+  margin: 0;
+  font-size: 17px;
+  color: #434343;
+  text-decoration: none;
+}
+.info-block__descript_gallery {
+  width: 100%;
+  max-width: 570px;
+  margin: auto;
+  text-align: center;
+  color: #434027;
+}
+.info-block__descript_subscribe {
+  width: 100%;
+}
+
+.about-block {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: #02b2b2;
+  align-items: center;
+}
+
+/*# sourceMappingURL=about-block.css.map */

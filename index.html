@@ -57,7 +57,7 @@
     </div>
 
     <div class="about-block" id="about">
-      <img src="assets/img/about-us-image.png" alt="Raspberries-In-Cup" />
+      <img class="about-block__image" src="assets/img/about-us-image.png" alt="Raspberries-In-Cup" />
       <section class="info-block about-block__info-block">
         <h1 class="info-block__title_white">About us</h1>
         <p class="info-block__descript info-block__descript_white">
@@ -75,7 +75,7 @@
     </div>
 
     <div class="services-block">
-      <nav class="menu-bar services-block__menu-bar">
+      <nav class="menu-bar menu-bar_services-block">
         <ul class="menu-bar__menu menu-bar__menu_side-menu">
           <li class="menu-bar__menuitem menu-bar_side-menu__menuitem">
             <a href="#" class="menu-bar__menulink menu-bar_side-menu__menulink"
@@ -129,13 +129,13 @@
       </nav>
 
       <div class="services-block__services-hero">
-        <h1 class="services-hero__title">Our Services</h1>
+        <h1 class="services-block__hero-title">Our Services</h1>
       </div>
     </div>
 
     <div class="gallery-block">
       <div class="gallery-block__gallery">
-        <div class="info-block gallery__info-block">
+        <div class="info-block gallery-block__info-block">
           <h1 class="info-block__title info-block__title_gallery">Gallery</h1>
           <p class="info-block__descript info-block__descript_gallery">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
@@ -145,30 +145,30 @@
           </p>
         </div>
         <div class="gallery-block__grid">
-          <div class="grid__item grid__item_top-left">
+          <div class="gallery-block__grid-item gallery-block__grid-item_top-left">
             <img
               src="assets/img/gallery/peach-on-plate.png"
               alt="Peach on plate"
             />
           </div>
-          <div class="grid__item grid__item_top-right">
+          <div class="gallery-block__grid-item gallery-block__grid-item_top-right">
             <img
               src="assets/img/gallery/blueberry-on-spoon.png"
               alt="Blueberries on spoon"
             />
             <img src="assets/img/gallery/mulberry.png" alt="Mulberries" />
           </div>
-          <div class="grid__item grid__item_bottom-left">
+          <div class="gallery-block__grid-item gallery-block__grid-item_bottom-left">
             <img
               src="assets/img/gallery/mulberry-in-milk.png"
               alt="Blueberries and milk"
             />
           </div>
-          <div class="grid__item grid__item_bottom-right">
+          <div class="gallery-block__grid-item gallery-block__grid-item_bottom-right">
             <img src="assets/img/gallery/persimmon.png" alt="Persimmon" />
           </div>
         </div>
-        <a href="#" class="linkbutton gallery__linkbutton"> View more </a>
+        <a href="#" class="linkbutton linkbutton_gallery"> View more </a>
       </div>
     </div>
 
@@ -187,42 +187,42 @@
           name="mail-addr"
           required
         />
-        <input type="submit" class="linkbutton subscribe__linkbutton" value="subscribe">
+        <input type="submit" class="linkbutton linkbutton_subscribe" value="subscribe">
       </form>
     </div>
 
-    <div class="blog-contents">
-      <section class="blog">
+    <div class="blog-block">
+      <section class="blog-block__blog">
         <h2>Blog</h2>
         <p>
           Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
           exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           Duis aute irure dolor in reprehenderit in voluptate velit.
         </p>
-        <nav>
-          <div class="menuitem">
-            <h3 class="post-date"><span class="day-number">20</span> nov</h3>
-            <div class="post-description">
+        <nav class="blog-block__blog-nav">
+          <div class="blog-block__blog-nav-menuitem">
+            <h3 class="blog-block__blog-nav-post-date"><span class="blog-block__blog-nav-day-number">20</span> nov</h3>
+            <div class="blog-block__blog-post-description">
               <h4>Green Smoothies: Too Much of a Good Thing?</h4>
               <h6>By Auskteez - 2 hours ago</h6>
             </div>
           </div>
-          <div class="menuitem">
-            <h3 class="post-date"><span class="day-number">14</span> nov</h3>
-            <div class="post-description">
+          <div class="blog-block__blog-nav-menuitem">
+            <h3 class="blog-block__blog-nav-post-date"><span class="blog-block__blog-nav-day-number">14</span> nov</h3>
+            <div class="blog-block__blog-post-description">
               <h4>Growing Food and a “Thirst” for Innovation</h4>
               <h6>By Auskteez - 3 hours ago</h6>
             </div>
           </div>
-          <div class="menuitem">
-            <h3 class="post-date"><span class="day-number">10</span> nov</h3>
-            <div class="post-description">
+          <div class="blog-block__blog-nav-menuitem">
+            <h3 class="blog-block__blog-nav-post-date"><span class="blog-block__blog-nav-day-number">10</span> nov</h3>
+            <div class="blog-block__blog-post-description">
               <h4>Pesticides & Food: What You Need to Know</h4>
               <h6>By Auskteez - 6 hours ago</h6>
             </div>
           </div>
         </nav>
-        <a href="#" class="button">View more</a>
+        <a href="#" class="blog-block__blog-button">View more</a>
       </section>
     </div>
 

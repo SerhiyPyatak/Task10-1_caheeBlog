@@ -1,0 +1,61 @@
+@import "linkbutton";
+@import "info-block";
+
+.gallery-block {
+    width:                  100vw;
+    background-color:       rgb(255, 233, 47);
+    display:                flex;
+    justify-content:        center;
+    align-items:            flex-start;
+    padding:                100px 0;
+
+    &__gallery {
+        max-width:              1200px;
+        width:                  80%;
+        height:                 auto;
+        display:                flex;
+        flex-direction:         column;
+    }
+
+    &__grid {
+        max-width:              1200px;
+        height:                 auto;
+        width:                  100%;
+        margin:                 0;
+        padding:                0;
+    }
+
+    &__grid-item {
+        display:                inline-block;
+        box-sizing:             border-box;
+        height:                 auto;
+        vertical-align:         middle;
+    }
+
+    &__grid-item img {
+        width:                  100%;
+        height:                 auto;
+        display:                inline-block;
+        box-sizing:             border-box;
+    }
+
+    &__grid-item_top-left {
+        width:                  64%;
+    }
+    
+    &__grid-item_top-right {
+        width:                  35%;
+    }
+    
+    &__grid-item_bottom-left {
+        width:                  48%;
+    }
+    
+    &__grid-item_bottom-right {
+        width:                  51%;
+    }
+
+    &__info-block {
+        margin-bottom:          50px;
+    }
+}
