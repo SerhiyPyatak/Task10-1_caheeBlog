@@ -18,13 +18,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;800;900&display=swap");
 html {
   line-height: 1.15;
@@ -591,6 +591,12 @@ template {
   display: inline-block;
 }
 
+@media (max-width: 768px) {
+  .linkbutton_subscribe {
+    width: 32%;
+    height: 40px;
+  }
+}
 .info-block {
   padding: 0 150px;
   font-family: "Raleway", sans-serif;
@@ -662,12 +668,11 @@ template {
 .info-block__descript_subscribe {
   width: 100%;
 }
-
-@media (max-width: 768px) {
-  .info-block {
-    padding: 0 40px;
-  }
+.info-block_subscribe-block {
+  width: 40%;
+  padding-right: 0;
 }
+
 @media (max-width: 992px) {
   .about-block__info-block {
     padding: 0 40px;
@@ -677,8 +682,18 @@ template {
   .info-block__descript_white {
     width: 300px;
   }
+  .info-block_subscribe-block {
+    padding: 0 70px;
+  }
+  .info-block_visit-card {
+    padding: 0 50px;
+  }
 }
 @media (max-width: 768px) {
+  .info-block {
+    padding: 0 40px;
+  }
+
   .about-block__info-block {
     padding: 0 20px;
     width: 250px;
@@ -691,6 +706,11 @@ template {
 
   .info-block__title_white {
     font-size: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .info-block_subscribe-block {
+    width: 80%;
   }
 }
 .linkbutton {
@@ -739,6 +759,12 @@ template {
   display: inline-block;
 }
 
+@media (max-width: 768px) {
+  .linkbutton_subscribe {
+    width: 32%;
+    height: 40px;
+  }
+}
 .hero-block {
   display: flex;
   flex-direction: column;
@@ -820,6 +846,12 @@ template {
   display: inline-block;
 }
 
+@media (max-width: 768px) {
+  .linkbutton_subscribe {
+    width: 32%;
+    height: 40px;
+  }
+}
 .info-block {
   padding: 0 150px;
   font-family: "Raleway", sans-serif;
@@ -891,12 +923,11 @@ template {
 .info-block__descript_subscribe {
   width: 100%;
 }
-
-@media (max-width: 768px) {
-  .info-block {
-    padding: 0 40px;
-  }
+.info-block_subscribe-block {
+  width: 40%;
+  padding-right: 0;
 }
+
 @media (max-width: 992px) {
   .about-block__info-block {
     padding: 0 40px;
@@ -906,8 +937,18 @@ template {
   .info-block__descript_white {
     width: 300px;
   }
+  .info-block_subscribe-block {
+    padding: 0 70px;
+  }
+  .info-block_visit-card {
+    padding: 0 50px;
+  }
 }
 @media (max-width: 768px) {
+  .info-block {
+    padding: 0 40px;
+  }
+
   .about-block__info-block {
     padding: 0 20px;
     width: 250px;
@@ -920,6 +961,11 @@ template {
 
   .info-block__title_white {
     font-size: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .info-block_subscribe-block {
+    width: 80%;
   }
 }
 .about-block {
@@ -1129,6 +1175,12 @@ template {
   display: inline-block;
 }
 
+@media (max-width: 768px) {
+  .linkbutton_subscribe {
+    width: 32%;
+    height: 40px;
+  }
+}
 .linkbutton {
   display: flex;
   justify-content: center;
@@ -1175,6 +1227,12 @@ template {
   display: inline-block;
 }
 
+@media (max-width: 768px) {
+  .linkbutton_subscribe {
+    width: 32%;
+    height: 40px;
+  }
+}
 .info-block {
   padding: 0 150px;
   font-family: "Raleway", sans-serif;
@@ -1246,12 +1304,11 @@ template {
 .info-block__descript_subscribe {
   width: 100%;
 }
-
-@media (max-width: 768px) {
-  .info-block {
-    padding: 0 40px;
-  }
+.info-block_subscribe-block {
+  width: 40%;
+  padding-right: 0;
 }
+
 @media (max-width: 992px) {
   .about-block__info-block {
     padding: 0 40px;
@@ -1261,8 +1318,18 @@ template {
   .info-block__descript_white {
     width: 300px;
   }
+  .info-block_subscribe-block {
+    padding: 0 70px;
+  }
+  .info-block_visit-card {
+    padding: 0 50px;
+  }
 }
 @media (max-width: 768px) {
+  .info-block {
+    padding: 0 40px;
+  }
+
   .about-block__info-block {
     padding: 0 20px;
     width: 250px;
@@ -1275,6 +1342,11 @@ template {
 
   .info-block__title_white {
     font-size: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .info-block_subscribe-block {
+    width: 80%;
   }
 }
 .gallery-block {
@@ -1373,6 +1445,12 @@ template {
   display: inline-block;
 }
 
+@media (max-width: 768px) {
+  .linkbutton_subscribe {
+    width: 32%;
+    height: 40px;
+  }
+}
 .info-block {
   padding: 0 150px;
   font-family: "Raleway", sans-serif;
@@ -1444,12 +1522,11 @@ template {
 .info-block__descript_subscribe {
   width: 100%;
 }
-
-@media (max-width: 768px) {
-  .info-block {
-    padding: 0 40px;
-  }
+.info-block_subscribe-block {
+  width: 40%;
+  padding-right: 0;
 }
+
 @media (max-width: 992px) {
   .about-block__info-block {
     padding: 0 40px;
@@ -1459,8 +1536,18 @@ template {
   .info-block__descript_white {
     width: 300px;
   }
+  .info-block_subscribe-block {
+    padding: 0 70px;
+  }
+  .info-block_visit-card {
+    padding: 0 50px;
+  }
 }
 @media (max-width: 768px) {
+  .info-block {
+    padding: 0 40px;
+  }
+
   .about-block__info-block {
     padding: 0 20px;
     width: 250px;
@@ -1475,6 +1562,11 @@ template {
     font-size: 40px;
   }
 }
+@media (max-width: 576px) {
+  .info-block_subscribe-block {
+    width: 80%;
+  }
+}
 .c-form {
   width: 500px;
   height: 447px;
@@ -1483,7 +1575,6 @@ template {
   gap: 15px;
   font-family: "Raleway", sans-serif;
 }
-
 .c-form__textfield {
   height: 50px;
   border: none;
@@ -1493,17 +1584,14 @@ template {
   color: #fff;
   outline: none;
 }
-
 .c-form__textfield::placeholder {
   color: #fff;
 }
-
 .c-form__textfield:focus {
   background-color: #00c4c4;
   border-left: 4px solid #355b82;
   font-weight: bold;
 }
-
 .c-form__textarea {
   height: 250px;
   border: none;
@@ -1513,45 +1601,60 @@ template {
   color: #fff;
   outline: none;
 }
-
 .c-form__textarea::placeholder {
   color: #fff;
 }
-
 .c-form__textarea:focus {
   background-color: #00c4c4;
   border-left: 4px solid #355b82;
   font-weight: bold;
 }
-
-.subscribe__c-form {
+.c-form_subscribe {
   padding-left: 150px;
   width: 51%;
   height: 65px;
   flex-direction: row;
   margin-top: 30px;
 }
-
 .c-form__textfield_subscribe {
   width: 74%;
   padding: 0;
-}
-
-.c-form__textfield_subscribe {
   background-color: #fff;
   border: 1px solid #262626;
   padding-left: 25px;
 }
-
 .c-form__textfield_subscribe::placeholder {
   color: #bdbdbd;
 }
-
 .c-form__textfield_subscribe:focus {
   background-color: #fff;
   color: #262626;
 }
 
+@media (max-width: 992px) {
+  .c-form_subscribe {
+    padding-left: 70px;
+  }
+}
+@media (max-width: 768px) {
+  .c-form_subscribe {
+    padding-left: 40px;
+  }
+  .c-form__textfield_subscribe {
+    height: 40px;
+  }
+  .c-form_contact-section {
+    width: 400px;
+  }
+}
+@media (max-width: 576px) {
+  .c-form_subscribe {
+    width: 80%;
+  }
+  .c-form_contact-section {
+    width: 300px;
+  }
+}
 .linkbutton {
   display: flex;
   justify-content: center;
@@ -1598,6 +1701,12 @@ template {
   display: inline-block;
 }
 
+@media (max-width: 768px) {
+  .linkbutton_subscribe {
+    width: 32%;
+    height: 40px;
+  }
+}
 .subscribe-block {
   width: 100vw;
   height: 500px;
@@ -1609,11 +1718,19 @@ template {
   justify-content: center;
   flex-direction: column;
 }
-.subscribe-block__info-block {
-  width: 40%;
-  padding-right: 0;
-}
 
+@media (max-width: 992px) {
+  .subscribe-block {
+    background-size: 1100px auto;
+    background-position: top 50% left 100%;
+    height: 400px;
+  }
+}
+@media (max-width: 576px) {
+  .subscribe-block {
+    background-image: none;
+  }
+}
 .blog-block {
   /* v--- Let's try Absolute Centering like in lesson ---v*/
   margin: auto 0;
@@ -1758,7 +1875,6 @@ template {
   gap: 15px;
   font-family: "Raleway", sans-serif;
 }
-
 .c-form__textfield {
   height: 50px;
   border: none;
@@ -1768,17 +1884,14 @@ template {
   color: #fff;
   outline: none;
 }
-
 .c-form__textfield::placeholder {
   color: #fff;
 }
-
 .c-form__textfield:focus {
   background-color: #00c4c4;
   border-left: 4px solid #355b82;
   font-weight: bold;
 }
-
 .c-form__textarea {
   height: 250px;
   border: none;
@@ -1788,45 +1901,60 @@ template {
   color: #fff;
   outline: none;
 }
-
 .c-form__textarea::placeholder {
   color: #fff;
 }
-
 .c-form__textarea:focus {
   background-color: #00c4c4;
   border-left: 4px solid #355b82;
   font-weight: bold;
 }
-
-.subscribe__c-form {
+.c-form_subscribe {
   padding-left: 150px;
   width: 51%;
   height: 65px;
   flex-direction: row;
   margin-top: 30px;
 }
-
 .c-form__textfield_subscribe {
   width: 74%;
   padding: 0;
-}
-
-.c-form__textfield_subscribe {
   background-color: #fff;
   border: 1px solid #262626;
   padding-left: 25px;
 }
-
 .c-form__textfield_subscribe::placeholder {
   color: #bdbdbd;
 }
-
 .c-form__textfield_subscribe:focus {
   background-color: #fff;
   color: #262626;
 }
 
+@media (max-width: 992px) {
+  .c-form_subscribe {
+    padding-left: 70px;
+  }
+}
+@media (max-width: 768px) {
+  .c-form_subscribe {
+    padding-left: 40px;
+  }
+  .c-form__textfield_subscribe {
+    height: 40px;
+  }
+  .c-form_contact-section {
+    width: 400px;
+  }
+}
+@media (max-width: 576px) {
+  .c-form_subscribe {
+    width: 80%;
+  }
+  .c-form_contact-section {
+    width: 300px;
+  }
+}
 .linkbutton {
   display: flex;
   justify-content: center;
@@ -1873,6 +2001,12 @@ template {
   display: inline-block;
 }
 
+@media (max-width: 768px) {
+  .linkbutton_subscribe {
+    width: 32%;
+    height: 40px;
+  }
+}
 .info-block {
   padding: 0 150px;
   font-family: "Raleway", sans-serif;
@@ -1944,12 +2078,11 @@ template {
 .info-block__descript_subscribe {
   width: 100%;
 }
-
-@media (max-width: 768px) {
-  .info-block {
-    padding: 0 40px;
-  }
+.info-block_subscribe-block {
+  width: 40%;
+  padding-right: 0;
 }
+
 @media (max-width: 992px) {
   .about-block__info-block {
     padding: 0 40px;
@@ -1959,8 +2092,18 @@ template {
   .info-block__descript_white {
     width: 300px;
   }
+  .info-block_subscribe-block {
+    padding: 0 70px;
+  }
+  .info-block_visit-card {
+    padding: 0 50px;
+  }
 }
 @media (max-width: 768px) {
+  .info-block {
+    padding: 0 40px;
+  }
+
   .about-block__info-block {
     padding: 0 20px;
     width: 250px;
@@ -1975,6 +2118,11 @@ template {
     font-size: 40px;
   }
 }
+@media (max-width: 576px) {
+  .info-block_subscribe-block {
+    width: 80%;
+  }
+}
 .c-form {
   width: 500px;
   height: 447px;
@@ -1983,7 +2131,6 @@ template {
   gap: 15px;
   font-family: "Raleway", sans-serif;
 }
-
 .c-form__textfield {
   height: 50px;
   border: none;
@@ -1993,17 +2140,14 @@ template {
   color: #fff;
   outline: none;
 }
-
 .c-form__textfield::placeholder {
   color: #fff;
 }
-
 .c-form__textfield:focus {
   background-color: #00c4c4;
   border-left: 4px solid #355b82;
   font-weight: bold;
 }
-
 .c-form__textarea {
   height: 250px;
   border: none;
@@ -2013,45 +2157,60 @@ template {
   color: #fff;
   outline: none;
 }
-
 .c-form__textarea::placeholder {
   color: #fff;
 }
-
 .c-form__textarea:focus {
   background-color: #00c4c4;
   border-left: 4px solid #355b82;
   font-weight: bold;
 }
-
-.subscribe__c-form {
+.c-form_subscribe {
   padding-left: 150px;
   width: 51%;
   height: 65px;
   flex-direction: row;
   margin-top: 30px;
 }
-
 .c-form__textfield_subscribe {
   width: 74%;
   padding: 0;
-}
-
-.c-form__textfield_subscribe {
   background-color: #fff;
   border: 1px solid #262626;
   padding-left: 25px;
 }
-
 .c-form__textfield_subscribe::placeholder {
   color: #bdbdbd;
 }
-
 .c-form__textfield_subscribe:focus {
   background-color: #fff;
   color: #262626;
 }
 
+@media (max-width: 992px) {
+  .c-form_subscribe {
+    padding-left: 70px;
+  }
+}
+@media (max-width: 768px) {
+  .c-form_subscribe {
+    padding-left: 40px;
+  }
+  .c-form__textfield_subscribe {
+    height: 40px;
+  }
+  .c-form_contact-section {
+    width: 400px;
+  }
+}
+@media (max-width: 576px) {
+  .c-form_subscribe {
+    width: 80%;
+  }
+  .c-form_contact-section {
+    width: 300px;
+  }
+}
 .contact-section {
   height: 100vh;
   width: 100vw;
@@ -2075,6 +2234,16 @@ template {
   gap: 20px;
 }
 
+@media (max-width: 992px) {
+  .contact-section__visit-card {
+    width: 40%;
+  }
+}
+@media (max-width: 768px) {
+  .contact-section {
+    height: 90vh;
+  }
+}
 .webpage-footer {
   display: flex;
   justify-content: space-around;

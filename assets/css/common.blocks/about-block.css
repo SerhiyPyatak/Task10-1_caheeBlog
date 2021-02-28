@@ -46,6 +46,12 @@
   display: inline-block;
 }
 
+@media (max-width: 768px) {
+  .linkbutton_subscribe {
+    width: 32%;
+    height: 40px;
+  }
+}
 .info-block {
   padding: 0 150px;
   font-family: "Raleway", sans-serif;
@@ -117,12 +123,11 @@
 .info-block__descript_subscribe {
   width: 100%;
 }
-
-@media (max-width: 768px) {
-  .info-block {
-    padding: 0 40px;
-  }
+.info-block_subscribe-block {
+  width: 40%;
+  padding-right: 0;
 }
+
 @media (max-width: 992px) {
   .about-block__info-block {
     padding: 0 40px;
@@ -132,8 +137,18 @@
   .info-block__descript_white {
     width: 300px;
   }
+  .info-block_subscribe-block {
+    padding: 0 70px;
+  }
+  .info-block_visit-card {
+    padding: 0 50px;
+  }
 }
 @media (max-width: 768px) {
+  .info-block {
+    padding: 0 40px;
+  }
+
   .about-block__info-block {
     padding: 0 20px;
     width: 250px;
@@ -146,6 +161,11 @@
 
   .info-block__title_white {
     font-size: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .info-block_subscribe-block {
+    width: 80%;
   }
 }
 .about-block {

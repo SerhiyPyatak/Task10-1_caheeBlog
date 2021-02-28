@@ -45,4 +45,11 @@
   display: inline-block;
 }
 
+@media (max-width: 768px) {
+  .linkbutton_subscribe {
+    width: 32%;
+    height: 40px;
+  }
+}
+
 /*# sourceMappingURL=linkbutton.css.map */

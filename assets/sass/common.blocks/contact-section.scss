@@ -27,5 +27,18 @@
     }
 }
 
+@media (max-width: 992px) { 
+    .contact-section {
+        &__visit-card {
+            width: 40%;
+        }
+    }
+}
+@media (max-width: 768px) { 
+    .contact-section {
+        height: 90vh;
+    }
+ }
+@media (max-width: 576px) {  }
 
 

@@ -49,3 +49,15 @@
         display:inline-block;
     }
 }
+
+@media (max-width: 992px) {  }
+@media (max-width: 768px) { 
+    .linkbutton {
+        &_subscribe {
+            width: 32%;
+            height: 40px;
+        }
+    }
+ }
+@media (min-width: 576px) {  }
+

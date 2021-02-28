@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@import "../variables";
 
 .c-form {
     width:                  500px;
@@ -6,73 +6,106 @@
     display:                flex;
     flex-direction:         column;
     gap:                    15px;
-    font-family:           'Raleway', sans-serif;
+    font-family:           $raleway;
+
+    &__textfield {
+        height:                 50px;
+        border:                 none;
+        background-color:       rgba(99, 208, 212, 0.6);
+        padding:                0 20px;
+        font-size:              15px;
+        color:                  #fff;
+        outline:                none;
+    }
+
+    &__textfield::placeholder {
+        color:                  #fff;
+    }
+
+    &__textfield:focus {
+        background-color:       rgba(0, 196, 196, 1);
+        border-left:            4px solid rgb(53, 91, 130);
+        font-weight:            bold;
+    }
+    
+    &__textarea {
+        height:                 250px;
+        border:                 none;
+        background-color:       rgba(99, 208, 212, 0.6);
+        padding:                20px;
+        font-size:              15px;
+        color:                  #fff;
+        outline:                none;
+    }
+    
+    &__textarea::placeholder {
+        color:                  #fff;
+    }
+    
+    &__textarea:focus {
+        background-color:       rgba(0, 196, 196, 1);
+        border-left:            4px solid rgb(53, 91, 130);
+        font-weight:            bold;
+    }
+    
+    &_subscribe {
+        padding-left:           150px;
+        width:                  51%;
+        height:                 65px;
+        flex-direction:         row;
+        margin-top:             30px;
+    }
+
+    &__textfield_subscribe {
+        width:                  74%;
+        padding:                0;
+        background-color:       #fff;
+        border:                 1px solid rgb(38, 38, 38);
+        padding-left:           25px;
+    }
+    
+    &__textfield_subscribe::placeholder {
+        color:                  rgb(189, 189, 189);
+    }
+    
+    &__textfield_subscribe:focus {
+        background-color:       #fff;
+        color:                  rgb(38, 38, 38);
+    }
 }
 
-.c-form__textfield {
-    height:                 50px;
-    border:                 none;
-    background-color:       rgba(99, 208, 212, 0.6);
-    padding:                0 20px;
-    font-size:              15px;
-    color:                  #fff;
-    outline:                none;
-}
+@media (max-width: 992px) { 
+    .c-form {
+        &_subscribe {
+            padding-left: 70px;
+        }
+    }
+ }
 
-.c-form__textfield::placeholder {
-    color:                  #fff;
-}
+@media (max-width: 768px) { 
+    .c-form {
+        &_subscribe {
+            padding-left: 40px;
+        }
 
-.c-form__textfield:focus {
-    background-color:       rgba(0, 196, 196, 1);
-    border-left:            4px solid rgb(53, 91, 130);
-    font-weight:            bold;
-}
+        &__textfield_subscribe {
+            height: 40px;
+        }
 
-.c-form__textarea {
-    height:                 250px;
-    border:                 none;
-    background-color:       rgba(99, 208, 212, 0.6);
-    padding:                20px;
-    font-size:              15px;
-    color:                  #fff;
-    outline:                none;
-}
+        &_contact-section {
+            width: 400px;
+        }
+    }
+ }
 
-.c-form__textarea::placeholder {
-    color:                  #fff;
-}
+@media (max-width: 576px) { 
+    .c-form {
+        &_subscribe {
+            width: 80%;
+        }
 
-.c-form__textarea:focus {
-    background-color:       rgba(0, 196, 196, 1);
-    border-left:            4px solid rgb(53, 91, 130);
-    font-weight:            bold;
-}
-
-.subscribe__c-form {
-    padding-left:           150px;
-    width:                  51%;
-    height:                 65px;
-    flex-direction:         row;
-    margin-top:             30px;
-}
-
-.c-form__textfield_subscribe {
-    width:                  74%;
-    padding:                0;
-}
-
-.c-form__textfield_subscribe {
-    background-color:       #fff;
-    border:                 1px solid rgb(38, 38, 38);
-    padding-left:           25px;
-}
-
-.c-form__textfield_subscribe::placeholder {
-    color:                  rgb(189, 189, 189);
-}
-
-.c-form__textfield_subscribe:focus {
-    background-color:       #fff;
-    color:                  rgb(38, 38, 38);
-}
+        &_contact-section {
+            width: 300px;
+        }
+    }
+ }

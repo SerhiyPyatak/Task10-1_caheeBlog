@@ -83,11 +83,10 @@
             width:                  100%;
         }
     }
-}
 
-@media (max-width: 768px) {
-    .info-block {
-        padding: 0 40px;
+    &_subscribe-block {
+        width:                  40%;
+        padding-right:          0;
     }
 }
 
@@ -97,12 +96,27 @@
         width: 300px;
     }
 
-    .info-block__descript_white {
-        width: 300px;
+    .info-block {
+        &__descript_white {
+            width: 300px;
+        }
+    
+        &_subscribe-block {
+            padding: 0 70px;
+        }
+
+        &_visit-card {
+            padding: 0 50px;
+        }
     }
+
+    
 }
 
 @media (max-width: 768px) {
+    .info-block {
+        padding: 0 40px;
+    }
 
     .about-block__info-block {
         padding: 0 20px;
@@ -118,6 +132,15 @@
         font-size: 40px;
     }
 }
+
+@media (max-width: 576px) { 
+    .info-block {
+        &_subscribe-block {
+            width: 80%;
+        }
+    }
+ }
+
 
 
 
