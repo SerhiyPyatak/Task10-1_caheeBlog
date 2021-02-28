@@ -85,7 +85,39 @@
     }
 }
 
+@media (max-width: 768px) {
+    .info-block {
+        padding: 0 40px;
+    }
+}
 
+@media (max-width: 992px) {
+    .about-block__info-block {
+        padding: 0 40px;
+        width: 300px;
+    }
+
+    .info-block__descript_white {
+        width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .about-block__info-block {
+        padding: 0 20px;
+        width: 250px;
+    }
+
+    .info-block__descript_white {
+        width: 250px;
+        font-size: 13px;
+    }
+
+    .info-block__title_white {
+        font-size: 40px;
+    }
+}
 
 
 

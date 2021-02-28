@@ -32,3 +32,40 @@
         top:                    30px;
     }
 }
+
+@media (max-width: 992px) { 
+    .services-block {
+
+        &__services-hero {
+            background-size: 410px 460px;
+        }
+    
+        &__hero-title {
+            left: -30px;
+        }
+
+    }
+ }
+
+@media (max-width: 768px) { 
+
+    .services-block {
+        &__services-hero {
+            background-image: none;
+            width: 40%;
+        }
+
+        &__hero-title {
+            left: 25px;
+            top: 5px;
+        }
+
+    }
+
+ }
+@media (max-width: 576px) { 
+    .services-block {
+        flex-direction: column-reverse;
+        padding-bottom: 50px;
+    }
+ }

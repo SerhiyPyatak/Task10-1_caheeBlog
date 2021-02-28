@@ -118,12 +118,65 @@
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  .info-block {
+    padding: 0 40px;
+  }
+}
+@media (max-width: 992px) {
+  .about-block__info-block {
+    padding: 0 40px;
+    width: 300px;
+  }
+
+  .info-block__descript_white {
+    width: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .about-block__info-block {
+    padding: 0 20px;
+    width: 250px;
+  }
+
+  .info-block__descript_white {
+    width: 250px;
+    font-size: 13px;
+  }
+
+  .info-block__title_white {
+    font-size: 40px;
+  }
+}
 .about-block {
   display: flex;
   justify-content: center;
   height: 100vh;
   background-color: #02b2b2;
   align-items: center;
+}
+
+@media (max-width: 992px) {
+  .about-block {
+    height: 70vh;
+  }
+  .about-block__image {
+    width: 500px;
+  }
+}
+@media (max-width: 768px) {
+  .about-block {
+    height: 60vh;
+  }
+
+  .about-block__image {
+    width: 380px;
+  }
+}
+@media (max-width: 576px) {
+  .about-block__image {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=about-block.css.map */
