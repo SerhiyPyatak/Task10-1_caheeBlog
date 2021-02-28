@@ -204,19 +204,16 @@
   background-repeat: no-repeat;
   box-sizing: border-box;
 }
-
 .contact-section__header {
   display: flex;
   justify-content: center;
 }
-
 .contact-section__content {
   display: flex;
   justify-content: center;
   padding-top: 50px;
 }
-
-.content__visit-card {
+.contact-section__visit-card {
   display: flex;
   flex-direction: column;
   gap: 20px;

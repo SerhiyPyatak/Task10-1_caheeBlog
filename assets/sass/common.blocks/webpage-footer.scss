@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@import "../variables.scss";
 
 .webpage-footer {
     display:                flex;
@@ -7,11 +7,12 @@
     color:                  rgb(126, 126, 126);
     height:                 90px;
     background-color:       rgb(38, 38, 38);
-    font-family:           'Raleway', sans-serif;
+    font-family:            $raleway;
     font-size:              15px;
+
+    &__slogan span {
+        color:                  rgb(255, 43, 88);
+        font-weight:            700;
+    }
 }
 
-.webpage-footer__slogan span {
-    color:                  rgb(255, 43, 88);
-    font-weight:            700;
-}

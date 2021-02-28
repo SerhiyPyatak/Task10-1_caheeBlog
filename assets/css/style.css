@@ -25,7 +25,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700;800;900&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -1864,19 +1864,16 @@ template {
   background-repeat: no-repeat;
   box-sizing: border-box;
 }
-
 .contact-section__header {
   display: flex;
   justify-content: center;
 }
-
 .contact-section__content {
   display: flex;
   justify-content: center;
   padding-top: 50px;
 }
-
-.content__visit-card {
+.contact-section__visit-card {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -1892,7 +1889,6 @@ template {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
 }
-
 .webpage-footer__slogan span {
   color: #ff2b58;
   font-weight: 700;
