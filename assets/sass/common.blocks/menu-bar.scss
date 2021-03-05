@@ -1,5 +1,9 @@
 @import "../variables";
 
+$items: 6;
+$transition-duration: 0.3s;
+$transition-delay: 0.03s;
+
 .menu-bar {
     display:                flex;
     justify-content:        space-between;
@@ -49,7 +53,6 @@
         &:hover {
             box-shadow: 7px 12px 10px -1px rgba(21, 36, 47, 0.62);
         }
-
     }
 
     &_side-menu__menulink {
@@ -61,7 +64,7 @@
         font-size:              18px;
         text-align:             center;
         text-transform:         capitalize;
-        font-weight: 800;
+        font-weight:            800;
     }
 
     &__link-icon {
@@ -84,4 +87,97 @@
         padding:                0;
         justify-content:        center;
     }
+
+    &__toggle {
+        display:                none;
+    }
+}
+
+.toggle {
+    height:                     40px;
+    width:                      40px;
+}
+
+@media (max-width: 768px) {
+    .menu-bar {
+        &__menu_hero {
+            visibility:         hidden;
+            flex-direction:     column;
+            position:           relative;
+            justify-content:    flex-start;
+            gap:                10px;
+            top:                90px;
+            left:               30%;
+
+            &.active {
+                visibility:     visible;
+                transition-delay: 0s;
+            }
+        }
+
+        &__menuitem_hero {
+            height: 25px;
+            display:flex;
+            padding: 0;
+            
+
+            // Setting delays for the nav items in open transition
+            @for $i from 1 through $items {
+                &:nth-child(#{$i}) {
+                    $delay: ($items - $i) * $transition-delay;
+                    transition-delay: $delay;
+
+                    &:before {
+                        transition-delay: $delay;
+                    }
+                }
+            }
+
+            &.active {
+                transition: 0s;
+                // Setting delays for the nav items in close transition
+                @for $i from 1 through $items {
+                    &:nth-child(#{$i}) {
+                        $delay: ($i - 1) * $transition-delay;
+                        transition-delay: $delay;
+
+                        &:before {
+                            transition-delay: $delay;
+                        }
+                    }
+                }
+            }
+        }
+
+        &__menulink {
+            padding: 4px;
+            border: none;
+
+            &:only-child:hover {
+                color: rgba(255, 96, 51, 1);
+                border: none;
+            }
+        }
+
+        &__toggle {
+		    display:            inline-block;
+            position:           relative;
+		    background:         transparent;
+		    color:              #777;
+		    font-size:          38px;
+            text-decoration:    none;
+            top: -38px;
+            left: 62%;
+
+            &:hover {
+                color:  rgba(255, 96, 51, 1);
+            }
+
+            &.active {
+                transform:rotate(90deg);
+            }
+
+        }
+    }
+
 }
